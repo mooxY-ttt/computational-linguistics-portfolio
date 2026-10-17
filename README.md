@@ -16,5 +16,11 @@ This repository documents my practical exploration of Natural Language Processin
 - **Summary**: Implements an NLP pipeline utilizing statistical NER and sentence-level co-occurrence analysis to infer semantic relationships. Transforms unstructured narrative into structured DataFrames suitable for downstream knowledge graph construction.
 - **Notebook**: [`02_ner_relation_extraction.ipynb`](./02_ner_relation_extraction.ipynb)
 
+### 3. Exploratory Corpus Analysis Workflow (R)
+- **Objective**: To demonstrate proficiency in academic statistical computing and tidy data principles for text analysis.
+- **Tech Stack**: R, `tidyverse`, `tidytext`, `ggplot2`.
+- **Summary**: This is a workflow demonstration rather than a full-scale research project. It utilizes the `tidytext` framework to tokenize a classic literary text, filter stop words, and calculate term frequencies. The output is a reproducible HTML report showcasing publication-quality data visualization, highlighting my readiness for corpus linguistics methodologies.
+- **View Report**: [`03_corpus_linguistics_r.html`](./03_corpus_linguistics_r/03_corpus_linguistics_r.html)
+
 ## Methodology and Reflection
 These projects demonstrate a progression from rule-based text processing to statistical NLP models. A key insight gained through this practical work is the limitation of simple co-occurrence heuristics for relation extraction, which often yields false positives in complex syntactic structures. Future iterations of these pipelines will explore dependency parsing and transformer-based architectures to capture deeper semantic dependencies.
