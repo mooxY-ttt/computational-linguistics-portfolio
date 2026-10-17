@@ -23,4 +23,6 @@ This repository documents my practical exploration of Natural Language Processin
 - **View Report**: [`03_corpus_linguistics_r.html`](./03_corpus_linguistics_r/03_corpus_linguistics_r.html)
 
 ## Methodology and Reflection
-These projects demonstrate a progression from rule-based text processing to statistical NLP models. A key insight gained through this practical work is the limitation of simple co-occurrence heuristics for relation extraction, which often yields false positives in complex syntactic structures. Future iterations of these pipelines will explore dependency parsing and transformer-based architectures to capture deeper semantic dependencies.
+This portfolio demonstrates a multi-paradigm approach to computational linguistics. The Python projects focus on modern, statistical NLP pipelines and information extraction, highlighting my readiness for deep learning and NLP engineering coursework. The R project demonstrates my proficiency in academic statistical computing, tidy data manipulation, and corpus linguistics methodologies. 
+
+A key insight gained across these projects is the trade-off between rule-based heuristics (e.g., regex, simple co-occurrence) and statistical models. Future work will focus on integrating dependency parsing and transformer-based architectures to resolve complex syntactic dependencies and coreference.
