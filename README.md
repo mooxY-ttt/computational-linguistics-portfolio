@@ -1,32 +1,20 @@
-# Stylometric Analysis of Classic Literature
+# Computational Linguistics Portfolio
 
-## Project Overview
-This project explores the application of foundational Natural Language Processing (NLP) techniques to quantitatively analyze and compare the stylistic features of different authors. It serves as a practical demonstration of bridging linguistic inquiry with computational methods.
+This repository documents my practical exploration of Natural Language Processing (NLP) and computational methods applied to linguistic analysis. It serves as a supplementary portfolio for my application to the MA Linguistics with a Specialisation in Computational Linguistics programme at UCL.
 
-## Technical Stack
-- **Language**: Python 3
-- **Libraries**: 
-  - `re` (Regular expressions for text normalization)
-  - `collections.Counter` (Frequency analysis)
-  - `matplotlib` (Data visualization)
-- **Environment**: Google Colab
+## Project Index
 
-## Data Source
-- *Alice's Adventures in Wonderland* by Lewis Carroll
-- *The Hound of the Baskervilles* by Arthur Conan Doyle
-- Texts were retrieved via HTTP requests directly from the Project Gutenberg open-source library.
+### 1. Stylometric Analysis of Classic Literature
+- **Objective**: Quantitative comparison of lexical features and stylistic patterns between different authors.
+- **Tech Stack**: Python 3, Regular Expressions (`re`), `collections.Counter`, `matplotlib`.
+- **Summary**: Programmatically fetches public domain texts from Project Gutenberg, performs regex-based text normalization, and visualizes word frequency distributions to identify distinct authorial signatures.
+- **Notebook**: [`01_stylometric_analysis.ipynb`](./01_stylometric_analysis.ipynb)
 
-## Linguistic Observations
-Quantitative analysis of the cleaned text reveals distinct stylistic patterns:
-1. Conan Doyle's text shows a higher relative frequency of concrete nouns and action verbs (e.g., "man", "door", "said"), aligning with the plot-driven nature of detective fiction.
-2. Carroll's text, while also dialogue-heavy, features a distinct distribution of character-specific and fantastical vocabulary (e.g., "queen", "mock").
+### 2. Named Entity Recognition and Relation Extraction
+- **Objective**: Extract structured relational data (Person-Organization links) from unstructured news text.
+- **Tech Stack**: Python 3, `spaCy` (pre-trained `en_core_web_sm` model), `pandas`.
+- **Summary**: Implements an NLP pipeline utilizing statistical NER and sentence-level co-occurrence analysis to infer semantic relationships. Transforms unstructured narrative into structured DataFrames suitable for downstream knowledge graph construction.
+- **Notebook**: [`02_ner_relation_extraction.ipynb`](./02_ner_relation_extraction.ipynb)
 
-This demonstrates how basic frequency-based methods can provide objective starting points for stylometric analysis.
-
-## Limitations and Future Improvements
-The current tokenization relies on basic Regular Expressions, which may not accurately handle complex contractions (e.g., "don't") or morphological variations. Future iterations of this project will integrate advanced NLP libraries (e.g., spaCy or NLTK) to implement Part-of-Speech (POS) tagging and Lemmatization, enabling more granular syntactic and semantic analysis.
-
-## How to Run
-This project is hosted on Google Colab. You can view and execute the code directly by clicking the badge below:
-
-[![Open In Colab](https://colab.research.google.com/drive/1qlom0do2ZMaP0HqEjF65ioSklb94Ofo7#scrollTo=SLv7CVAWY1R8&line=32&uniqifier=1)](https://colab.research.google.com/) 
+## Methodology and Reflection
+These projects demonstrate a progression from rule-based text processing to statistical NLP models. A key insight gained through this practical work is the limitation of simple co-occurrence heuristics for relation extraction, which often yields false positives in complex syntactic structures. Future iterations of these pipelines will explore dependency parsing and transformer-based architectures to capture deeper semantic dependencies.
