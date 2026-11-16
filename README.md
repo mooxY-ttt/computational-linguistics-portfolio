@@ -1,6 +1,6 @@
 # Computational Linguistics Portfolio
 
-This repository documents my practical exploration of Natural Language Processing (NLP) and computational methods applied to linguistic analysis. It serves as a supplementary portfolio for my application to the MA Linguistics with a Specialisation in Computational Linguistics programme at UCL.
+This repository documents my practical exploration of Natural Language Processing (NLP) and computational methods applied to linguistic analysis. It serves as a supplementary portfolio for my application.
 
 ## Project Index
 
